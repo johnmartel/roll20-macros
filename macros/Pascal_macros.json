@@ -1,0 +1,125 @@
+{
+  "schema_version": 2,
+  "macros": [
+    {
+      "attributes": {
+        "action": "Attack Roll Flame Blade:\n/em COME ON BABY LIGHT MY FIRE!!!\n/roll 1d20+6 Attack",
+        "istokenaction": true,
+        "name": "AttackRollFlameBlade",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": null,
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Attack Roll Shillelagh:\n/me uses his magic fucking wooden staff\n/roll 1d20+6 Attack",
+        "istokenaction": true,
+        "name": "AttackRollShillelagh",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": null,
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Initiative:\n/roll 1d20+2 &{tracker}",
+        "istokenaction": true,
+        "name": "Initiative",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#0000ff",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Damage Flame Blade:\n/em Kin mon esti de mange marde\n/roll ?{Critical?|No, 3|Yes, 6}d6 Fire damage",
+        "istokenaction": true,
+        "name": "DamageFlameBlade",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ff0000",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Damage Shillelagh:\n/roll ?{Critical?|No, 1|Yes, 2}d8+3 Bludgeoning",
+        "istokenaction": true,
+        "name": "DamageShillelagh",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ff0000",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Healing Word:\n/me heals Lugg Nomh once again\n/roll ?{Spell level}d4+3",
+        "istokenaction": true,
+        "name": "HealingWord",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#00ff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Cure Wounds:\n/me gives a healing suppositoire to Lugg Nomh\n/roll ?{Spell level}d8+3",
+        "istokenaction": true,
+        "name": "CureWounds",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#00ff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Call Lightning:\n/em THUNDER! THUNDER! THUNDERSTRIKE!\n/roll [[?{Spell Level}-3+3]]d10 Lightning",
+        "istokenaction": true,
+        "name": "CallLightning",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#674ea7",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Perception:\n/roll 1d20+3",
+        "istokenaction": true,
+        "name": "Perception",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ffff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Stealth:\n/roll 1d20+2 Stealth",
+        "istokenaction": true,
+        "name": "Stealth",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ffff00",
+        "name": null
+      }
+    }
+  ]
+}
