@@ -39,6 +39,18 @@
     },
     {
       "attributes": {
+        "action": "Attack Roll Handaxe Dual:\n/roll 1d20-1 Attack handaxe dual wield",
+        "istokenaction": true,
+        "name": "AttackRollHandaxeDual",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": null,
+        "name": null
+      }
+    },
+    {
+      "attributes": {
         "action": "Initiative:\n/roll 1d20+2 &{tracker}",
         "istokenaction": true,
         "name": "Initiative",
