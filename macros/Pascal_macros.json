@@ -87,6 +87,30 @@
     },
     {
       "attributes": {
+        "action": "Damage Dagger Dual:\n/roll ?{Critical?|No, 1|Yes, 2}d4 Piercing",
+        "istokenaction": true,
+        "name": "DamageDaggerDual",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ff0000",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Damage Handaxe Dual:\n/roll ?{Critical?|No, 1|Yes, 2}d6-1 Slashing",
+        "istokenaction": true,
+        "name": "DamageHandaxeDual",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ff0000",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
         "action": "Healing Word:\n/me heals Lugg Nomh once again\n/roll ?{Spell level}d4+3",
         "istokenaction": true,
         "name": "HealingWord",
