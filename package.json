@@ -1,0 +1,70 @@
+{
+  "name": "roll20-macros",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint . --fix",
+    "test": "jest --coverage",
+    "validate": "node --experimental-json-modules index.js"
+  },
+  "prettier": {
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
+    "printWidth": 130,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "jsonschema": "1.2.6"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "7.9.5",
+    "babel-jest": "25.3.0",
+    "babel-plugin-inline-import": "3.0.0",
+    "eslint": "6.8.0",
+    "eslint-plugin-jest": "23.8.2",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-prettier": "3.1.2",
+    "jest": "25.3.0",
+    "jest-junit": "10.0.0",
+    "prettier": "2.0.4"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageDirectory": "<rootDir>/coverage",
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "globals": {
+      "__DEV__": true
+    },
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ],
+    "testMatch": [
+      "**/test/**/*.test.js"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!((jest-)?react-native|react-navigation|@react-navigation/.*|@react-native-community/.*|@react-native-mapbox-gl/.*))"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
+  }
+}

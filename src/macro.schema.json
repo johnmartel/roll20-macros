@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/johnmartel/Roll20-macros/macro.schema.json",
+  "title": "Roll20 macros",
+  "description": "Importable macros for roll20",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer"
+    },
+    "macros": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "attributes": {
+            "type": "object",
+            "properties": {
+              "action": {
+                "type": "string"
+              },
+              "istokenaction": {
+                "type": "boolean"
+              },
+              "name": {
+                "type": "string"
+              },
+              "visibleto": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "action",
+              "istokenaction",
+              "name",
+              "visibleto"
+            ]
+          },
+          "macrobar": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": ["null", "string"]
+              },
+              "color": {
+                "type": ["null", "string"]
+              }
+            },
+            "required": [
+              "name",
+              "color"
+            ]
+          }
+        }
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "macros"
+  ]
+}
