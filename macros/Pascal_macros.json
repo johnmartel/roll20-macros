@@ -27,6 +27,18 @@
     },
     {
       "attributes": {
+        "action": "Attack Roll Dagger Dual:\n/roll 1d20+5 Attack dagger dual wield",
+        "istokenaction": true,
+        "name": "AttackRollDaggerDual",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": null,
+        "name": null
+      }
+    },
+    {
+      "attributes": {
         "action": "Initiative:\n/roll 1d20+2 &{tracker}",
         "istokenaction": true,
         "name": "Initiative",
