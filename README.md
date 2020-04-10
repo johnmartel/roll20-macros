@@ -25,3 +25,8 @@ To import a bunch of macros:
 
 See the [doc](https://ssstormy.github.io/roll20-enhancement-suite/features.html) and search for `Player Macro Importer/Exporter`.
 
+
+## Contributing
+
+- Validate your macro files with `npm run validate`
+- Contributing to the javascript code? `npm run lint && npm test`
