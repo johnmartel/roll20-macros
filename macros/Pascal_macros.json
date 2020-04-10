@@ -111,7 +111,7 @@
     },
     {
       "attributes": {
-        "action": "Healing Word:\n/me heals Lugg Nomh once again\n/roll ?{Spell level}d4+3",
+        "action": "Healing Word:\n/me heals Lugg Nomh once again\n/roll ?{Spell level|1}d4+3",
         "istokenaction": true,
         "name": "HealingWord",
         "visibleto": ""
@@ -123,7 +123,7 @@
     },
     {
       "attributes": {
-        "action": "Cure Wounds:\n/me gives a healing suppositoire to Lugg Nomh\n/roll ?{Spell level}d8+3",
+        "action": "Cure Wounds:\n/me gives a healing suppositoire to Lugg Nomh\n/roll ?{Spell level|1}d8+3",
         "istokenaction": true,
         "name": "CureWounds",
         "visibleto": ""
@@ -135,7 +135,7 @@
     },
     {
       "attributes": {
-        "action": "Call Lightning:\n/em THUNDER! THUNDER! THUNDERSTRIKE!\n/roll [[?{Spell Level}-3+3]]d10 Lightning",
+        "action": "Call Lightning:\n/em THUNDER! THUNDER! THUNDERSTRIKE!\n/roll [[?{Spell Level|3}-3+3]]d10 Lightning",
         "istokenaction": true,
         "name": "CallLightning",
         "visibleto": ""
