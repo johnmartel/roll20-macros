@@ -63,7 +63,7 @@
     },
     {
       "attributes": {
-        "action": "Damage Flame Blade:\n/em Kin mon esti de mange marde\n/roll ?{Critical?|No, 3|Yes, 6}d6 Fire damage",
+        "action": "Damage Flame Blade:\n/em Kin mon esti de mange marde\n/roll ?{Critical?|No, 3|Yes, [Critical hit!] 6}d6 Fire damage",
         "istokenaction": true,
         "name": "DamageFlameBlade",
         "visibleto": ""
@@ -75,7 +75,7 @@
     },
     {
       "attributes": {
-        "action": "Damage Shillelagh:\n/roll ?{Critical?|No, 1|Yes, 2}d8+3 Bludgeoning",
+        "action": "Damage Shillelagh:\n/roll ?{Critical?|No, 1|Yes, [Critical hit!] 2}d8+3 Bludgeoning",
         "istokenaction": true,
         "name": "DamageShillelagh",
         "visibleto": ""
@@ -87,7 +87,7 @@
     },
     {
       "attributes": {
-        "action": "Damage Dagger Dual:\n/roll ?{Critical?|No, 1|Yes, 2}d4 Piercing",
+        "action": "Damage Dagger Dual:\n/roll ?{Critical?|No, 1|Yes, [Critical hit!] 2}d4 Piercing",
         "istokenaction": true,
         "name": "DamageDaggerDual",
         "visibleto": ""
@@ -99,7 +99,7 @@
     },
     {
       "attributes": {
-        "action": "Damage Handaxe Dual:\n/roll ?{Critical?|No, 1|Yes, 2}d6-1 Slashing",
+        "action": "Damage Handaxe Dual:\n/roll ?{Critical?|No, 1|Yes, [Critical hit!] 2}d6-1 Slashing",
         "istokenaction": true,
         "name": "DamageHandaxeDual",
         "visibleto": ""
