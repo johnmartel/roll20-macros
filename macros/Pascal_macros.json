@@ -111,6 +111,18 @@
     },
     {
       "attributes": {
+        "action": "Create bonfire:\n/me casts Create Bonfire\n/roll 2d8",
+        "istokenaction": true,
+        "name": "CreateBonfire",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#00ff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
         "action": "Healing Word:\n/me heals Lugg Nomh once again\n/roll ?{Spell level|1}d4+3",
         "istokenaction": true,
         "name": "HealingWord",
