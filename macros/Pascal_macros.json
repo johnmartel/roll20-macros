@@ -147,7 +147,7 @@
     },
     {
       "attributes": {
-        "action": "Perception:\n/roll 1d20+3",
+        "action": "Skill:\n/roll 1d20+3 WIS/Perception",
         "istokenaction": true,
         "name": "Perception",
         "visibleto": ""
@@ -159,9 +159,117 @@
     },
     {
       "attributes": {
-        "action": "Stealth:\n/roll 1d20+2 Stealth",
+        "action": "Skill:\n/roll 1d20+2 DEX/Stealth",
         "istokenaction": true,
         "name": "Stealth",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ffff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Skill:\n/roll 1d20+2 DEX/Acrobatics",
+        "istokenaction": true,
+        "name": "Acrobatics",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ffff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Skill:\n/roll 1d20+3 WIS/Animal handling",
+        "istokenaction": true,
+        "name": "AnimalHandling",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ffff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Skill:\n/roll 1d20+3 INT/Arcana",
+        "istokenaction": true,
+        "name": "Arcana",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ffff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Skill:\n/roll 1d20-1 STR/Athletics",
+        "istokenaction": true,
+        "name": "Athletics",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ffff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Skill:\n/roll 1d20+3 INT/Investigation",
+        "istokenaction": true,
+        "name": "Investigation",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ffff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Skill:\n/roll 1d20+6 WIS/Medicine",
+        "istokenaction": true,
+        "name": "Medicine",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ffff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Skill:\n/roll 1d20+6 INT/Nature",
+        "istokenaction": true,
+        "name": "Nature",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ffff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Skill:\n/roll 1d20+6 INT/Religion",
+        "istokenaction": true,
+        "name": "Religion",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ffff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
+        "action": "Skill:\n/roll 1d20+6 WIS/Survival",
+        "istokenaction": true,
+        "name": "Survival",
         "visibleto": ""
       },
       "macrobar": {
