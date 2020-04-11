@@ -3,7 +3,7 @@
   "macros": [
     {
       "attributes": {
-        "action": "Attack Roll Flame Blade:\n/em COME ON BABY LIGHT MY FIRE!!!\n/roll 1d20+6 Attack",
+        "action": "Attack Roll Flame Blade:\n/em COME ON BABY LIGHT MY FIRE!!!\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}+6 Attack",
         "istokenaction": true,
         "name": "AttackRollFlameBlade",
         "visibleto": ""
@@ -15,7 +15,7 @@
     },
     {
       "attributes": {
-        "action": "Attack Roll Shillelagh:\n/me uses his magic fucking wooden staff\n/roll 1d20+6 Attack",
+        "action": "Attack Roll Shillelagh:\n/me uses his magic fucking wooden staff\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}+6 Attack",
         "istokenaction": true,
         "name": "AttackRollShillelagh",
         "visibleto": ""
@@ -27,7 +27,7 @@
     },
     {
       "attributes": {
-        "action": "Attack Roll Dagger Dual:\n/roll 1d20+5 Attack dagger dual wield",
+        "action": "Attack Roll Dagger Dual:\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}+5 Attack dagger dual wield",
         "istokenaction": true,
         "name": "AttackRollDaggerDual",
         "visibleto": ""
@@ -39,7 +39,7 @@
     },
     {
       "attributes": {
-        "action": "Attack Roll Handaxe Dual:\n/roll 1d20-1 Attack handaxe dual wield",
+        "action": "Attack Roll Handaxe Dual:\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}-1 Attack handaxe dual wield",
         "istokenaction": true,
         "name": "AttackRollHandaxeDual",
         "visibleto": ""
