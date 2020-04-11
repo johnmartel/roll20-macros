@@ -1,0 +1,77 @@
+{
+    "schema_version": 2,
+    "macros": [
+        {
+            "attributes": {
+                "action": "/em Damage roll bonus action with shortsword\n/roll 1d6",
+                "istokenaction": true,
+                "name": "DR-sw-bonus",
+                "visibleto": ""
+            },
+            "macrobar": {
+                "color": null,
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "/em Initiative\n/roll 1d20+5 &{tracker}&",
+                "istokenaction": true,
+                "name": "Ini",
+                "visibleto": ""
+            },
+            "macrobar": {
+                "color": "#00ff00",
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "/em Attack roll with Falcon\n/roll 1d20+9",
+                "istokenaction": true,
+                "name": "AR-Falcon",
+                "visibleto": ""
+            },
+            "macrobar": {
+                "color": "#ffe599",
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "/em Damage roll with Falcon\n/roll 1d8+6 + ?{Sneak?|No, 0d6|Yes, 3d6}",
+                "istokenaction": true,
+                "name": "DR-Falcon",
+                "visibleto": ""
+            },
+            "macrobar": {
+                "color": null,
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "/em Attack roll with shortsword\n/roll 1d20+8",
+                "istokenaction": true,
+                "name": "AR-Shortsword",
+                "visibleto": ""
+            },
+            "macrobar": {
+                "color": "#ffe599",
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "/em Damage roll with Elandil\n/roll 1d6+5 + ?{Sneak?|No, 0d6|Yes, 3d6}",
+                "istokenaction": true,
+                "name": "DR-Elandil",
+                "visibleto": ""
+            },
+            "macrobar": {
+                "color": null,
+                "name": null
+            }
+        }
+    ]
+}
