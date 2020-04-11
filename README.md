@@ -17,7 +17,6 @@ To import a bunch of macros:
 1. Hit the `Import` button.
 
 To export macros:  
-To import a bunch of macros:
 1. Go to the `Collections` menu;
 1. Scroll down to the `Import/Export Macro` section;
 1. Hit the `Export button`;
