@@ -51,7 +51,7 @@
     },
     {
       "attributes": {
-        "action": "Initiative:\n/roll 1d20+2 &{tracker}",
+        "action": "Initiative:\n/roll 1d20+2.14 &{tracker}",
         "istokenaction": true,
         "name": "Initiative",
         "visibleto": ""
