@@ -147,7 +147,7 @@
     },
     {
       "attributes": {
-        "action": "Call Lightning:\n/em THUNDER! THUNDER! @{target|token_name}THUNDERSTRIKE!\n/fx beam-water @{selected|token_id} @{target|token_id}\n/roll [[?{Spell Level|3}-3+3]]d10 Lightning",
+        "action": "Call Lightning:\n/em THUNDER! THUNDER! @{target|token_name} YOU'VE BEEN THUNDERSTRUCK!\n/fx beam-water @{selected|token_id} @{target|token_id}\n/roll [[?{Spell Level|3}-3+3]]d10 Lightning",
         "istokenaction": true,
         "name": "CallLightning",
         "visibleto": ""
