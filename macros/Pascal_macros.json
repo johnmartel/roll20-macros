@@ -3,7 +3,7 @@
   "macros": [
     {
       "attributes": {
-        "action": "Attack Roll Flame Blade:\n/em COME ON BABY LIGHT MY FIRE!!!\n/fx burst-fire\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}+6 Attack",
+        "action": "Attack Roll Flame Blade:\n/em COME ON BABY LIGHT MY FIRE!!!\n/fx burst-fire @{target|token_id}\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}+6 Attack",
         "istokenaction": true,
         "name": "AttackRollFlameBlade",
         "visibleto": ""
@@ -15,7 +15,7 @@
     },
     {
       "attributes": {
-        "action": "Attack Roll Shillelagh:\n/me uses his magic fucking wooden staff\n/fx glow-magic\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}+6 Attack",
+        "action": "Attack Roll Shillelagh:\n/me slams @{target|token_name} in the head with his magic fucking wooden staff\n/fx bomb-blood @{target|token_id}\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}+6 Attack",
         "istokenaction": true,
         "name": "AttackRollShillelagh",
         "visibleto": ""
@@ -111,7 +111,7 @@
     },
     {
       "attributes": {
-        "action": "Create bonfire:\n/me casts Create Bonfire\n/fx burn-fire\n/roll 2d8",
+        "action": "Create bonfire:\n/me casts Create Bonfire\n/fx burn-fire @{target|token_id}\n/roll 2d8",
         "istokenaction": true,
         "name": "CreateBonfire",
         "visibleto": ""
@@ -123,7 +123,7 @@
     },
     {
       "attributes": {
-        "action": "Healing Word:\n/me heals Lugg Nomh once again\n/fx bubbling-holy\n/roll ?{Spell level|1}d4+3",
+        "action": "Healing Word:\n/me heals @{target|token_name} once again\n/fx bubbling-holy @{target|token_id}\n/roll ?{Spell level|1}d4+3",
         "istokenaction": true,
         "name": "HealingWord",
         "visibleto": ""
@@ -135,7 +135,7 @@
     },
     {
       "attributes": {
-        "action": "Cure Wounds:\n/me gives a healing suppositoire to Lugg Nomh\n/fx splatter-magic\n/roll ?{Spell level|1}d8+3",
+        "action": "Cure Wounds:\n/me gives a healing suppositoire to @{target|token_name}\n/fx splatter-magic @{selected|token_id} @{target|token_id}\n/roll ?{Spell level|1}d8+3",
         "istokenaction": true,
         "name": "CureWounds",
         "visibleto": ""
@@ -147,7 +147,7 @@
     },
     {
       "attributes": {
-        "action": "Call Lightning:\n/em THUNDER! THUNDER! THUNDERSTRIKE!\n/fx beam-water\n/roll [[?{Spell Level|3}-3+3]]d10 Lightning",
+        "action": "Call Lightning:\n/em THUNDER! THUNDER! @{target|token_name}THUNDERSTRIKE!\n/fx beam-water @{selected|token_id} @{target|token_id}\n/roll [[?{Spell Level|3}-3+3]]d10 Lightning",
         "istokenaction": true,
         "name": "CallLightning",
         "visibleto": ""
