@@ -3,7 +3,7 @@
   "macros": [
     {
       "attributes": {
-        "action": "Attack Roll Flame Blade:\n/em COME ON BABY LIGHT MY FIRE!!!\n/fx burst-fire @{target|token_id}\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}+6 Attack",
+        "action": "Attack Roll Flame Blade:\n/em COME ON @{target|token_name} LIGHT MY FIRE!!!\n/fx burst-fire @{target|token_id}\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}+6 Attack",
         "istokenaction": true,
         "name": "AttackRollFlameBlade",
         "visibleto": ""
@@ -27,7 +27,7 @@
     },
     {
       "attributes": {
-        "action": "Attack Roll Dagger Dual:\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}+5 Attack dagger dual wield",
+        "action": "Attack Roll Dagger Dual:\n/me enfonce sa dagger en tournant entre les côtes de @{target|token_name}\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}+5 Attack dagger dual wield",
         "istokenaction": true,
         "name": "AttackRollDaggerDual",
         "visibleto": ""
@@ -39,7 +39,7 @@
     },
     {
       "attributes": {
-        "action": "Attack Roll Handaxe Dual:\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}-1 Attack handaxe dual wield",
+        "action": "Attack Roll Handaxe Dual:\n/me enfonce sa handaxe dans le front de @{target|token_name}\n/roll ?{Advantage?|No, 1d20|Yes, [Advantage!] 2d20kh1}-1 Attack handaxe dual wield",
         "istokenaction": true,
         "name": "AttackRollHandaxeDual",
         "visibleto": ""
@@ -75,7 +75,7 @@
     },
     {
       "attributes": {
-        "action": "Damage Shillelagh:\n/roll ?{Critical?|No, 1|Yes, [Critical hit!] 2}d8+3 Bludgeoning",
+        "action": "Damage Shillelagh:\n/roll ?{Critical?|No, 1|Yes, [Critical hit!] 2}d8+3 Magic Bludgeoning",
         "istokenaction": true,
         "name": "DamageShillelagh",
         "visibleto": ""
@@ -111,7 +111,7 @@
     },
     {
       "attributes": {
-        "action": "Create bonfire:\n/me casts Create Bonfire\n/fx burn-fire @{target|token_id}\n/roll 2d8",
+        "action": "Create bonfire:\n/me casts Create Bonfire on @{target|token_name}\n/fx burn-fire @{target|token_id}\n/roll 2d8",
         "istokenaction": true,
         "name": "CreateBonfire",
         "visibleto": ""
