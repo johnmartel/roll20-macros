@@ -159,9 +159,9 @@
     },
     {
       "attributes": {
-        "action": "Skill:\n/roll 1d20+3 WIS/Perception",
+        "action": "/em Ability check:\n/roll 1d20+?{Ability|Strength, -1 [STR]|Dexterity, 2 [DEX]|Constitution, 2 [CON]|Intelligence, 3 [INT]|Wisdom, 3 [WIS]|Charisma, -3 [CHA]}",
         "istokenaction": true,
-        "name": "Perception",
+        "name": "AbilityCheck",
         "visibleto": ""
       },
       "macrobar": {
@@ -171,9 +171,9 @@
     },
     {
       "attributes": {
-        "action": "Skill:\n/roll 1d20+2 DEX/Stealth",
+        "action": "/em Skill check:\n/roll 1d20+?{Skill|Acrobatics, 2 DEX/Acrobatics|Animal Handling, 3 WIS/Animal handling|Arcana, 3 INT/Arcana|Athletics, -1 STR/Athletics|Deception, -3 CHA/Deception|History, 3 INT/History|Insight, 3 WIS/Insight|Intimidation, -3 CHA/Intimidation|Investigation, 3 INT/Investigation|Medicine, 6 WIS/Medicine|Nature, 6 INT/Nature|Perception, 3 WIS/Perception|Performance, -3 CHA/Performance|Persuasion, -3 CHA/Persuasion|Religion, 6 INT/Religion|Sleight of hand, 2 DEX/Sleight of hand|Stealth, 2 DEX/Stealth|Survival, 6 WIS/Survival}",
         "istokenaction": true,
-        "name": "Stealth",
+        "name": "SkillCheck",
         "visibleto": ""
       },
       "macrobar": {
@@ -183,105 +183,9 @@
     },
     {
       "attributes": {
-        "action": "Skill:\n/roll 1d20+2 DEX/Acrobatics",
+        "action": "/em Saving Throw:\n/roll ?{Ability|Strength, 1d20-1 [STR]|Dexterity, 1d20+2 [DEX]|Constitution, 1d20+2 [CON]|Intelligence, ?{Against magic?&#124;No&#44; 1d20&#124;Yes&#44; [Advantage against magic] 2d20kh1&#125;+3 [INT]|Wisdom, ?{Against magic?&#124;No&#44; 1d20&#124;Yes&#44; [Advantage against magic] 2d20kh1&#125;+3 [WIS]|Charisma, ?{Against magic?&#124;No&#44; 1d20&#124;Yes&#44; [Advantage against magic] 2d20kh1&#125;-3 [CHA]}",
         "istokenaction": true,
-        "name": "Acrobatics",
-        "visibleto": ""
-      },
-      "macrobar": {
-        "color": "#ffff00",
-        "name": null
-      }
-    },
-    {
-      "attributes": {
-        "action": "Skill:\n/roll 1d20+3 WIS/Animal handling",
-        "istokenaction": true,
-        "name": "AnimalHandling",
-        "visibleto": ""
-      },
-      "macrobar": {
-        "color": "#ffff00",
-        "name": null
-      }
-    },
-    {
-      "attributes": {
-        "action": "Skill:\n/roll 1d20+3 INT/Arcana",
-        "istokenaction": true,
-        "name": "Arcana",
-        "visibleto": ""
-      },
-      "macrobar": {
-        "color": "#ffff00",
-        "name": null
-      }
-    },
-    {
-      "attributes": {
-        "action": "Skill:\n/roll 1d20-1 STR/Athletics",
-        "istokenaction": true,
-        "name": "Athletics",
-        "visibleto": ""
-      },
-      "macrobar": {
-        "color": "#ffff00",
-        "name": null
-      }
-    },
-    {
-      "attributes": {
-        "action": "Skill:\n/roll 1d20+3 INT/Investigation",
-        "istokenaction": true,
-        "name": "Investigation",
-        "visibleto": ""
-      },
-      "macrobar": {
-        "color": "#ffff00",
-        "name": null
-      }
-    },
-    {
-      "attributes": {
-        "action": "Skill:\n/roll 1d20+6 WIS/Medicine",
-        "istokenaction": true,
-        "name": "Medicine",
-        "visibleto": ""
-      },
-      "macrobar": {
-        "color": "#ffff00",
-        "name": null
-      }
-    },
-    {
-      "attributes": {
-        "action": "Skill:\n/roll 1d20+6 INT/Nature",
-        "istokenaction": true,
-        "name": "Nature",
-        "visibleto": ""
-      },
-      "macrobar": {
-        "color": "#ffff00",
-        "name": null
-      }
-    },
-    {
-      "attributes": {
-        "action": "Skill:\n/roll 1d20+6 INT/Religion",
-        "istokenaction": true,
-        "name": "Religion",
-        "visibleto": ""
-      },
-      "macrobar": {
-        "color": "#ffff00",
-        "name": null
-      }
-    },
-    {
-      "attributes": {
-        "action": "Skill:\n/roll 1d20+6 WIS/Survival",
-        "istokenaction": true,
-        "name": "Survival",
+        "name": "SavingThrows",
         "visibleto": ""
       },
       "macrobar": {
