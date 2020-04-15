@@ -1,5 +1,5 @@
 repository:
-  name: Roll20 macros
+  name: roll20-macros
   description: Roll20 macros for the drunken bastards DnD experience
   topics: roll20, dnd5e, macros
   private: false
