@@ -1,5 +1,7 @@
 # Roll20 macros for the drunken bastards DnD experience
 
+![](https://github.com/johnmartel/roll20-macros/workflows/Validate%20macro%20files/badge.svg)
+
 A bunch of macros for our DnD5e characters on Roll20. 
 
 
