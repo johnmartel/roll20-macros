@@ -210,7 +210,7 @@
         "action": "/w gm Sense check:\n/gmroll 1d20>?{Skill|Perception,13 WIS/Passive Perception|Investigation,13 INT/Passive Investigation|Insight,13 WIS/Passive Insight}",
         "istokenaction": true,
         "name": "Senses",
-        "visibleto": ""
+        "visibleto": "gm"
       },
       "macrobar": {
         "color": "#ffff00",
