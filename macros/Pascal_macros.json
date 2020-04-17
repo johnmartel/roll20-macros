@@ -123,6 +123,18 @@
     },
     {
       "attributes": {
+        "action": "Poison spray:\n/em Crache du poison partout sur @{target|token_name}\n/fx breath-slime @{selected|token_id} @{target|token_id}\n/roll 2d12 Poison",
+        "istokenaction": true,
+        "name": "PoisonSpray",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#00ff00",
+        "name": null
+      }
+    },
+    {
+      "attributes": {
         "action": "Healing Word:\n/me heals @{target|token_name} once again\n/fx bubbling-holy @{target|token_id}\n/roll ?{Spell level|1}d4+3",
         "istokenaction": true,
         "name": "HealingWord",
