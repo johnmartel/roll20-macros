@@ -216,6 +216,18 @@
         "color": "#ffff00",
         "name": null
       }
+    },
+    {
+      "attributes": {
+        "action": "/roll 1d20>10",
+        "istokenaction": true,
+        "name": "DeathSave",
+        "visibleto": ""
+      },
+      "macrobar": {
+        "color": "#ffff00",
+        "name": null
+      }
     }
   ]
 }
